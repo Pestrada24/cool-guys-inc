@@ -1,0 +1,13 @@
+<h1 class="text-center">The Chill Zone</h1>
+
+<section class="column align-center vent-output">
+    {{#each vents}}
+        <div class="vent">
+            <h3 class="text-center">{{title}}</h3>
+            <div class="row justify-between">
+                <p>{{date}}</p>
+                <p>By: {{author.email}}</p>
+        </div>
+    </div>
+    {{/each}}
+</section>
