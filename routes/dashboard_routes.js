@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const Vent = require('../../models/Vent');
-const User = require('../../models/User');
+const User = require('../models/User');
 
 function isAuthenticated(req, res, next) {
     if (req.session.user) {

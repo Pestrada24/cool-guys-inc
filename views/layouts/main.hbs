@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cool Guys, Inc.</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+    <body>
+        <header class="row justify-between align-center">
+            <a href="/">
+            <h3>Cool Guys, Inc.</h3>
+            </a>
+
+        <nav class="row align-center">
+            <a href="/vent">Where Cool Guys post about their day</a>
+            <a href="/auth/logout">Logout</a>
+            {{else}}
+            <a href="/register">Become a Cool Guy</a>
+            <span>or</span>
+            <a href="/login">Login</a>
+            {{/if}}
+        </nav>
+        </header>
+
+        {{{body}}}
+    </body>
+
+</html>
