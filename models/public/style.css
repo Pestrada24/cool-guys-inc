@@ -46,7 +46,7 @@ header nav > *:not(:last-child) {
 
 form {
     width: 380px;
-    displau: flex;
+    display: flex;
     flex-direction: column;
     margin: 100px auto 0;
 }
